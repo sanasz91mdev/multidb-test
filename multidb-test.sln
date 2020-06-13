@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multidb-test", "multidb-test\multidb-test.csproj", "{66D1C57E-7CE6-4AA5-9421-26AF17854B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_pgsql", "lib_pgsql\lib_pgsql.csproj", "{0792855E-21A3-41E8-87B3-2662F53DDC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entities", "entities\entities.csproj", "{629990AD-698A-4B9C-90E4-FDF7E1AAB592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_orasql", "lib_orasql\lib_orasql.csproj", "{EACB278D-FBE4-4408-9C45-598BB7B88283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbManager", "dbManager\dbManager.csproj", "{87368718-4B38-4102-9539-AA32FDAFE304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repositories", "repositories\repositories.csproj", "{2067A0BE-192C-4B20-B4E6-D60F1D9EC1E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D1C57E-7CE6-4AA5-9421-26AF17854B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D1C57E-7CE6-4AA5-9421-26AF17854B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D1C57E-7CE6-4AA5-9421-26AF17854B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D1C57E-7CE6-4AA5-9421-26AF17854B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0792855E-21A3-41E8-87B3-2662F53DDC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0792855E-21A3-41E8-87B3-2662F53DDC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0792855E-21A3-41E8-87B3-2662F53DDC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0792855E-21A3-41E8-87B3-2662F53DDC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629990AD-698A-4B9C-90E4-FDF7E1AAB592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629990AD-698A-4B9C-90E4-FDF7E1AAB592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629990AD-698A-4B9C-90E4-FDF7E1AAB592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629990AD-698A-4B9C-90E4-FDF7E1AAB592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACB278D-FBE4-4408-9C45-598BB7B88283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACB278D-FBE4-4408-9C45-598BB7B88283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACB278D-FBE4-4408-9C45-598BB7B88283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACB278D-FBE4-4408-9C45-598BB7B88283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87368718-4B38-4102-9539-AA32FDAFE304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87368718-4B38-4102-9539-AA32FDAFE304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87368718-4B38-4102-9539-AA32FDAFE304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87368718-4B38-4102-9539-AA32FDAFE304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2067A0BE-192C-4B20-B4E6-D60F1D9EC1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2067A0BE-192C-4B20-B4E6-D60F1D9EC1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2067A0BE-192C-4B20-B4E6-D60F1D9EC1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2067A0BE-192C-4B20-B4E6-D60F1D9EC1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62ABF037-BDF5-46A0-A8CA-A2EDEE67E1FA}
+	EndGlobalSection
+EndGlobal
